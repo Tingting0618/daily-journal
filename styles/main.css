@@ -1,0 +1,9 @@
+fieldset {
+    display: flex;
+    flex-direction: column ;
+}
+
+body {
+    margin: 1em;
+    padding: 1em;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Tingting's Daily Journal</title>
+</head>
+<body>
+    <form>
+        <h2>Daily Journal</h2>
+        <fieldset>
+            <label for="journalDate">Date of entry</label>
+            <input type="date" name="journalDate" id="journalDate">
+        </fieldset>
+
+        <fieldset>
+            <label for="journalConcept">Concept Covered</label>
+            <input type="text" name="journalConcept" id="journalConcept">
+        </fieldset>
+
+        <fieldset>
+            <label for="journalEntry">Journal Entry</label>
+            
+            <textarea name="journalEntry" cols="40" rows="5"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <label for="journalMood">Mood for the day</label>
+            <select name="journalMood">
+                <option value="sad">Sad</option>
+                <option value="happy" selected>Happy</option>
+                <option value="nothing">Nothing</option>
+            </select>
+        </fieldset>
+        <input type="submit" value="Record Journal Entry" />
+    </form>
+    <header></header>
+    <main></main>
+    <footer></footer>
+</body>
+</html>
