@@ -12,3 +12,8 @@ body {
 form{
     width: 50%;
 }
+
+.entryForm {
+    margin: 1em;
+    padding: 1em;
+}
